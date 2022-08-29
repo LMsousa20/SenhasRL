@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+#conteiner {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#conteiner1 {
+    border-radius: 30px;
+    background-color: aliceblue;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 7px;
+}
+
+.subdiv {
+    border: 1px solid gray;
+
+    /* margin: 20px; */
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.subdiv1 {
+    border: 1px solid gray;
+
+    margin: 2px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 0;
+
+}
+
+#eztc {
+    display: flex;
+    flex-direction: row;
+}
+
+#btns {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 10px;
+}
+
+#btns input {
+    box-shadow: 3px 3px 7px;
+
+}
+
+.move:hover {
+    transition: 600ms;
+    box-shadow: 3px 3px 7px red;
+}
