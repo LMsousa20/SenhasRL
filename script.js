@@ -4,6 +4,7 @@ let StringMes = dia.getMonth() + 1;
 let ano = dia.getYear();
 let hour = dia.getHours();
 let vl1 = StringDia * 100 + StringMes;
+let numbers = [1,2,3,4,5,6,7,8,9,0]
 // Salvar o valor na memoria
 if (Number(localStorage.getItem("cdg1")) == 0) {
   let codigo = Number(prompt("Qual seu Codigo?"));
@@ -50,7 +51,6 @@ function modClean() {
   document.getElementById("conteiner1").style.color = "black";
 }
 
-
 function zap() {
   let cdgZap = document.getElementById("inZap").value;
   console.log(typeof cdgZap);
@@ -62,12 +62,12 @@ function zap() {
   var numFinal = numzap3.replaceAll("+", "");
   console.log(typeof numFinal);
   console.log(numFinal);
-  
+
   document.getElementById("inZap").value = numFinal;
 
   document.getElementById("btnZap").innerHTML = `
     <a href="https://api.whatsapp.com/send/?phone=%2B${numFinal}">
-    <input class="subdiv move" target="_blank" type="button" value="WhattsApp acima"></input>
+    <input class="subdiv move" target="_blank" type="button" value="WhattsApp"></input>
     </a>
     `;
 }
