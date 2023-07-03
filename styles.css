@@ -1,11 +1,10 @@
 body {
-    background-color: rgb(213, 213, 213);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    background-image: url("https://picsum.photos/200/300?grayscale");
 }
 
 #conteiner {
