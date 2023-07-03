@@ -40,16 +40,6 @@ function cosseno() {
     "resulteztc"
   ).innerHTML = `<p>Senha do Eztech</p><div class="subdiv move">${senhaEztech}</div>`;
 }
-// Stilo
-function modDark() {
-  document.getElementById("conteiner1").style.background = "black";
-  document.getElementById("conteiner1").style.color = "white";
-}
-
-function modClean() {
-  document.getElementById("conteiner1").style.background = "white";
-  document.getElementById("conteiner1").style.color = "black";
-}
 
 function zap() {
   let cdgZap = document.getElementById("inZap").value;
@@ -67,7 +57,7 @@ function zap() {
 
   document.getElementById("btnZap").innerHTML = `
     <a href="https://api.whatsapp.com/send/?phone=%2B${numFinal}">
-    <input class="subdiv move" target="_blank" type="button" value="WhattsApp"></input>
+    <input class="subdiv move btn btn-primary" target="_blank" type="button" value="WhattsApp"></input>
     </a>
     `;
 }

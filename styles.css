@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(82, 82, 82);
+    background-color: rgb(213, 213, 213);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,13 +28,15 @@ body {
     align-items: center;
     border: 1px solid gray;
     box-shadow: 3px 3px 7px;
+    padding: 10px;
+
 }
 
 .subdiv {
     border: 1px solid gray;
 
     /* margin: 20px; */
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 7px;
@@ -56,10 +58,6 @@ body {
     margin-bottom: 15px;
 }
 
-p {
-    margin: 0;
-
-}
 
 #eztc {
     display: flex;
