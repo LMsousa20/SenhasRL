@@ -61,3 +61,5 @@ function zap() {
     </a>
     `;
 }
+
+CalcCompanytec()
