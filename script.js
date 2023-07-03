@@ -63,3 +63,9 @@ function zap() {
 }
 
 CalcCompanytec()
+
+function zeracdg(){
+  localStorage.setItem("cdg1", "0")
+  let codigo = Number(prompt("Qual seu Codigo?"));
+  localStorage.setItem("cdg1", codigo);
+}
