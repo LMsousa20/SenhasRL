@@ -5,14 +5,18 @@ let ano = dia.getYear();
 let hour = dia.getHours();
 let vl1 = StringDia * 100 + StringMes;
 let numbers = [1,2,3,4,5,6,7,8,9,0]
+let preValor;
 // Salvar o valor na memoria
 if (Number(localStorage.getItem("cdg1")) == 0) {
   let codigo = Number(prompt("Qual seu Codigo?"));
   localStorage.setItem("cdg1", codigo);
 }
 // Senha do sistem
+
 let codigoUser = localStorage.getItem("cdg1");
-let preValor = (vl1 / codigoUser) * 10000;
+ preValor = (vl1 / codigoUser) * 10000;
+
+
 // Imprimir a data
 if (StringMes <= 9) {
   document.getElementById("data").innerHTML = `${StringDia}/0${StringMes}`;
@@ -68,4 +72,6 @@ function zeracdg(){
   localStorage.setItem("cdg1", "0")
   let codigo = Number(prompt("Qual seu Codigo?"));
   localStorage.setItem("cdg1", codigo);
+  location.reload();
+
 }
