@@ -61,7 +61,7 @@ function zap() {
 
   document.getElementById("btnZap").innerHTML = `
     <a href="https://api.whatsapp.com/send/?phone=%2B${numFinal}">
-    <input class="subdiv move btn btn-primary" target="_blank" type="button" value="WhattsApp"></input>
+    <input class="subdiv move btn btn-primary" target="_blank" type="button" value="WhatsApp"></input>
     </a>
     `;
 }
